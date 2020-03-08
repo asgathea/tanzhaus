@@ -1,0 +1,62 @@
+/* bouncing house animation */
+.house {
+  animation-name: bounce;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+	0%   { transform: translate(0px, 0px); }
+	50%  { transform: translate(0px, -20px); }
+	100% { transform: translate(0px, 0px); }
+}
+
+/* dance animation (legs)*/
+.danceLeftLeg {
+	animation-name: danceLeftLeg;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes danceLeftLeg {
+	0%   { transform: translate(0px, 0px); }
+	50%  { transform: translate(40px, 0px); }
+	100% { transform: translate(0px, 0px); }
+}
+
+.danceLeftFoot {
+	animation-name: danceLeftFoot;
+	animation-duration: 0.6s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes danceLeftFoot {
+	0%   { width: 60px; border-left: 0px solid black; }
+	50%  { width: 40px; border-left: 10px solid black; }
+	80% { width: 58; border-left: 1px solid black; }
+	100% { width: 60px; border-left: 0px solid black; }
+}
+
+.danceRightLeg {
+	animation-name: danceRightLeg;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes danceRightLeg {
+	0%   { transform: translate(0px, 0px); }
+	50%  { transform: translate(20px, 0px); }
+	100% { transform: translate(0px, 0px); }
+}
+
+.danceRightFoot {
+	animation-name: danceRightFoot;
+	animation-duration: 0.6s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes danceRightFoot {
+	0%   { width: 40px; margin-left: 100px; }
+	50%  { width: 20px; margin-left: 110px; }
+	100% { width: 40px; margin-left: 100px; }
+}
