@@ -1,2 +1,3 @@
-# tanzhaus
-Tanzendes Verschwörhauslogo mit CSS
+# Tanzendes Verschwörhauslogo
+
+Inspiriert von [@blinry](https://github.com/blinry)s [Watschelhaus](https://morr.cc/watschelhaus/) und auf Anregung von [@HorayNarea](https://github.com/HorayNarea) habe ich das Verschwörhauslogo in CSS nachgebaut und zum Tanzen gebracht.
